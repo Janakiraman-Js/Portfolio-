@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="portfolio1.css">
+    <link rel="stylesheet" href="sc.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('about')">About</a></li>
+                <li><a href="#" onclick="showSection('skill')">Skill</a></li>
+                <li><a href="#" onclick="showSection('project')">Project</a></li>
+                <li><a href="#" onclick="showSection('education')">Education</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact</a></li>
+                <li><a href="#" onclick="showSection('resume')">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-mobile"></div>
+    <div class="content-laptop"></div>
+    <div class="content-tablets"></div>
+    <div class="js">
+        <h1 class="av">Software Developer</h1>
+        <section id="home" class="active">
+            <div class="home">
+            <img src="image.png" alt="no image" width="300" height="300">
+            <ol>
+                <li><h2>Name: <i>Janakiraman R</i></h2></li>
+                <li><h2>Qualification: <i>B.E</i></h2></li>
+                <li><h2>Department: <i>Mechanical</i></h2></li>
+            </ol>
+        </div>
+        </section>
+        <section id="about" class="profile">
+            <div class="about">
+            <img src="cod.png" alt="no image" width="300" height="300">
+            <h2>
+                A motivated and enthusiastic software developer with a Bachelor's degree in Mechanical. Skilled in Java and web development technologies including HTML, CSS, and JavaScript. Passionate about learning new technologies and solving complex problems. Eager to apply academic knowledge and project experience to real-world challenges in a dynamic development team.
+            </h2>
+        </div>
+        </section>
+        <section id="skill">
+            <h2 class="jsl">Skills</h2>
+            <div class="skill">
+            <div class="box">
+                <img src="java.png" width="100" height="100" alt="No image">
+                <p>JAVA</p>
+            </div>
+            <div class="box">
+                <img src="js.png" width="100" height="100" alt="no image">
+                <p>JAVASCRIPT</p>
+            </div>
+            <div class="box">
+                <img src="htm.png" width="100" height="100" alt="no image">
+                <p>HTML</p>
+            </div>
+            <div class="box">
+                <img src="css.png" width="100" height="100" alt="no image">
+                <p>CSS</p>
+            </div>
+            <div class="box">
+                <img src="Sql.png" width="100" height="100" alt="no image">
+                <p>SQL</p>
+            </div>
+            <div class="box">
+                <img src="spring.png" width="100" height="100" alt="no image">
+                <p>SPRING BOOT</p>
+            </div>
+            <div class="box">
+                <img src="react.png" width="100" height="100" alt="no image">
+                <p>REACT</p>
+            </div>
+        </div>
+        </section>
+        <section id="project">
+            <h2 class="jsl">Project</h2>
+            <div class="project">
+                <h1>Student Management System</h1>
+                <img src="list-students.png" alt="no img" width="300px" height="300px">
+                <h2>
+                    Create (Add): Condition: The system should allow adding a new student with unique student details. Implementation: Use Spring Data JPA to define a repository interface for the Student entity. Implement a service method to save a new student to the database.
+                    
+                    Read (Retrieve): Condition: The system should display a list of all students. Implementation: Use Spring Data JPA to retrieve all student records from the database.
+                    
+                    Update (Modify): Condition: The system should allow modifying student information. Implementation: Use Spring Data JPA to update an existing student record in the database.
+                    
+                    Delete (Remove): Condition: The system should allow deleting a student record. Implementation: Use Spring Data JPA to delete a student record from the database.
+                </h2>
+                <br>
+                <br>
+                <div class="project1">
+                    <h1>ATM applications</h1>
+                <img src="atm.png" alt="no img" width="300px" height="300px">
+                    <h2>Java's Versatility: Java's flexibility allows ATM applications to work on different types of machines without changes.
+                        Easy Interface Design: With Java Swing or JavaFX, developers can create user-friendly ATM interfaces with buttons and text fields.
+                        Handling Transactions: Java manages the behind-the-scenes tasks like user logins, transaction processing, and connecting to the ATM hardware.
+                        Secure Data Storage: Using JDBC, Java ensures that user account details are safely stored and retrieved from databases.
+                        Safety Features: Java comes with built-in security tools like encryption, protecting user data and preventing unauthorized access.
+                        Smooth Operations: Java's multitasking abilities help ATM apps handle many transactions at once, keeping things running smoothly even during busy times.
+                        Error Handling: Java's error-handling system allows ATM apps to recover gracefully from unexpected problems, keeping the system stable and secure.
+                        Testing and Debugging: Developers can use tools like JUnit to test and debug their ATM apps, ensuring they work properly before deployment.
+                        Easy Deployment: Once ready, ATM apps can be easily installed on machines with Java, making deployment hassle-free.</h2>
+                    </div>
+            </div>
+        </section>
+        <section id="education">
+            <h2 class="jsl">Education</h2>
+            <div class="education">
+            <table>
+                <caption><h1>Qualification</h1></caption>
+                <tr>
+                    <th>SSLC</th>
+                    <th>HSS</th>
+                    <th>B.E</th>
+                </tr>
+                <tr>
+                    <td>Choolaimedu Chennai Higher Secondary School(State Board)</td>
+                    <td>Choolaimedu Chennai Higher Secondary School(State Board)</td>
+                    <td>Vel Tech High Tech Dr.Rangarajan and Dr.Sakunthala Engineering College(Anna University)</td>
+                </tr>
+                <tr>
+                    <td>Percentage: 91.2%</td>
+                    <td>Percentage: 79%</td>
+                    <td>CGPA: 6.52 || Percentage: 62%</td>
+                </tr>
+            </table>  
+        </div>      
+        </section>
+        <section id="contact">
+            <h1 class="jr">Contact</h1>
+            <div class="contact">
+            <div class="fk">
+                <h2>Email: ramanjanaki7777@gmail.com</h2>
+                <h2>Phone: +91 755-015-6937</h2>
+                <div class="box">
+                    <a href="https://wa.link/505aoz" target="_self"><img src="whatsapp.png" alt="no img" width="100" height="100"></a>
+                </div>
+                <h2>Address: Choolaimedu, Chennai-600094</h2>
+            </div>
+        </div>
+        </section>
+        <section id="resume">
+            <h1>Resume</h1>
+            <div class="resume">
+                <h2>Janakiraman</h2>
+                    <p class="res"><a href="https://app.luminpdf.com/viewer/66c9eb7f6c4ac99a3e7fe8ad" target="_self">View Resume</a></p>
+                <br><br>
+                <button onclick="shareResume()">Share via Email</button>
+            </div>
+        </section>
+        </div>
+        <script src="jan.js"></script>
+</body>
+</html>
